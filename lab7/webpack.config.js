@@ -20,18 +20,18 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
+                test: /\.scss$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
+                    MiniCssExtractPlugin.loader, 
+                    'css-loader', 
+                    'sass-loader' 
                 ],
             },
             {
-                test: /\.scss$/i,
+                test: /\.css$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'sass-loader',
+                    MiniCssExtractPlugin.loader, 
+                    'css-loader', 
                 ],
             },
         ],
@@ -68,7 +68,7 @@ module.exports = {
         }),
         new CopyWebpackPlugin({
             patterns: [
-                { from: 'src/css', to: 'css' },
+                { from: 'src/scss', to: 'scss' },
             ],
         }),
     ],

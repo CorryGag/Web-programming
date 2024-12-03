@@ -1,0 +1,65 @@
+@media (max-width: 1200px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .header-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .btn-redirect {
+    width: 100%;
+    text-align: center;
+  }
+}
+body {
+  background: linear-gradient(to right, rgb(227, 213, 213), rgb(86, 85, 85));
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-page {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.btn-redirect {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: darkgray;
+  flex: 1;
+}
+
+.href-redirect {
+  text-decoration: none;
+  color: black;
+}
+
+.section-page {
+  background-color: darkgrey;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .header-page::before {
+    content: "You are using an outdated browser. Update it!";
+    display: block;
+    background-color: gray;
+    color: darkgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */

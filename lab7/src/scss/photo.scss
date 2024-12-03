@@ -1,12 +1,15 @@
+$width: 535px;
+
+
 .block-img{
     background-color: gray;
     margin: 2rem;
-    width: 535px;
+    width: $width;
     flex-wrap: wrap;
 }
 
 .img{
-    width: 535px;
+    width: $width;
     height: 400px;
 }
 
