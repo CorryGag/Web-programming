@@ -1,0 +1,40 @@
+$max-width: 100%;
+
+.cite-quote{
+    font-size: 1.2rem;
+    background-color: grey;
+}
+
+#list{
+    background-color: rgb(158, 160, 153);
+    box-sizing: border-box;
+    max-width: $max-width;
+}
+
+.input-text{
+    max-width: $max-width;
+    height: 1.5rem;
+    box-sizing: border-box;
+}
+
+.footer-page{
+    display: flex;
+    background-color: black;
+    color: cornsilk;
+    flex-wrap: wrap;
+    max-width: $max-width;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list-footer{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none
+}
