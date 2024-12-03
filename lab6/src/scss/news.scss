@@ -1,0 +1,12 @@
+$width: 535px;
+
+.block-news{
+    background-color: gray;
+    margin: 2rem;
+    width: $width;
+    flex-wrap: wrap;
+}
+
+.img-news{
+    width: $width;
+}
