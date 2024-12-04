@@ -1,0 +1,265 @@
+.expense-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 12px;
+    height: 120px;
+    width: 120px;
+}
+
+.expense-date_month {
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #2a2a2a;
+}
+
+.expense-date_day {
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #2a2a2a;
+}
+
+.expense-date_year{
+    background-color: #2a2a2a;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #4b4b4b;
+    border-radius: 12px;
+}
+
+.expense-item_description {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.expence-item_title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.expense-item_price {
+    font-size: 1.25rem;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #40005d;
+    border-radius: 12px;
+    border: 2px solid white;
+    padding: 0.5rem 1.5rem;
+}
+
+.expenses {
+    background-color: #1F1F1F;
+    margin: 2rem auto;
+    width: 60rem;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.chart-container {
+    background-color: #f8dfff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+
+.chart-inner {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 1rem; 
+    background-color: #f8dfff; 
+}
+
+.chart-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; 
+    background-color: #f8dfff; 
+}
+
+.chart-bar__inner {
+    height: 150px; 
+    width: 15px; 
+    border: 3px solid #4826B9; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: transparent;
+    background-color: #C3B4F3;
+}
+
+.chart-bar__fill {
+    height: 0; 
+    background-color: #4826B9; 
+    transition: height 0.3s ease-in-out; 
+}
+
+.chart-bar__label {
+    margin-top: 5px; 
+    font-size: 14px; 
+    text-align: center; 
+    background-color: #f8dfff;
+}
+
+.chart-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-bar__inner {
+    height: 150px; 
+    width: 15px;   
+    background-color: #e0e0e0; 
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+
+.chart-bar__fill {
+    background-color: #3b82f6; 
+    transition: height 0.3s ease-in;
+    
+}
+
+.chart-bar__label {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.filter_year{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    text-align: end;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1F1F1F;
+}
+
+.select{
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.newExpenseButton{
+    background-color: #A892EE;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 15px;
+}
+
+.buttonAddExpense{
+    color: white;
+    font-size: 16px;
+    background-color: #40005d;
+    border-radius: 12px;
+    padding: 1.2rem;
+    width: 12.5rem;
+    margin-left: 1rem;
+}
+
+.button-btn{
+    width: 8rem;
+}
+
+.newExpense{
+    display: flex;
+    flex-direction: column;
+    background-color: #A892EE;
+}
+
+.newExpenseInputs {
+    display: flex;
+    color: #00005C;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    background-color: #A892EE;
+}
+
+.newExpenseInput {
+    background-color: #A892EE;
+    text-align: left;
+}
+
+.newExpenseActions{
+    background-color: #A892EE;
+    margin: 0.5rem;
+    text-align: end;
+}
+
+.newExpenseDate {
+    color: #00005C;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A892EE;
+    text-align: left;
+}
+
+input{
+    display: flex;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+div{
+    background-color: #3F3F3F;
+}
+
+.container {
+    margin-top: 1rem; 
+    padding: 1rem; 
+}
+
+.container_expense{
+    background-color: #1F1F1F;
+    padding: 5px; 
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    text-align: end;
+}
+
+
